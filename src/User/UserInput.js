@@ -1,6 +1,6 @@
 import React from "react";
 
-const userInput = props => {
-  return <input>{props}</input>;
+const userInput = () => {
+  return <input></input>;
 };
 export default userInput;
