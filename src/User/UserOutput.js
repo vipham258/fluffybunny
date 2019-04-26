@@ -1,9 +1,9 @@
 import React from "react";
-const userOutput = () => {
+const userOutput = props => {
   return (
-    <div>
-      <p>first bla bla</p>
-      <p>second</p>
+    <div className="UserOutput">
+      <p>{props.name}</p>
+      <p />
     </div>
   );
 };
